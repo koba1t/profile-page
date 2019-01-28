@@ -12,7 +12,7 @@ About
 =====
 - Name: kob
 - Real_Name: yugo kobayashi
-
+- OS: ArchLinux
 
 
 Link
