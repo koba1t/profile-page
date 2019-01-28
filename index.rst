@@ -10,7 +10,6 @@ kob's profile page.
 
 About
 =====
-
 - Name: kob
 - Real_Name: yugo kobayashi
 

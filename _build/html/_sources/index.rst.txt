@@ -3,18 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to kob-profile-page's documentation!
 ============================================
+kob's profile page.
+============================================
+
+
+About
+=====
+
+- Name: kob
+- Real_Name: yugo kobayashi
+
+
+
+Link
+=====
+* `github.com <https://github.com/koba1t>`_
+* `twitter.com <https://twitter.com/0x6b6f62>`_
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
-
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
