@@ -22,7 +22,10 @@ Link
 
 .. toctree::
    :maxdepth: 2
+   :glob:
    :caption: Contents:
+
+   post/*
 
 Indices and tables
 ==================
