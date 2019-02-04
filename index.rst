@@ -13,6 +13,12 @@ About
 - Name: kob
 - Real_Name: yugo kobayashi
 
+Competitions
+============
+
+- ISUCON8 Final
+- ICT Troubleshooting Contest 2018 Final
+
 
 Link
 =====
