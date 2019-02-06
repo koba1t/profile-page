@@ -5,6 +5,10 @@ my profile page.
 using `git subtree push`.  
 https://koba1t.github.io
 
+## how to push contents
 ```
-git subtree push --prefix=_build/html --squash github-pages master
+cd _build/html/
+git add -A
+git commit -m "update"
+git push origin master
 ```
