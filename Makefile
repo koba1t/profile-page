@@ -17,3 +17,9 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+deploy: html
+	cd _build/html/ &&\
+	git add . &&\
+	git commit -m "[Update] `date -u +%Z_%F_%T`" &&\
+	git push origin master
