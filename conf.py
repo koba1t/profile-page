@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'kob-profile-page'
+project = 'kob homepage'
 copyright = '2019, kob'
 author = 'kob'
 
@@ -102,7 +102,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'kob-profile-pagedoc'
+htmlhelp_basename = 'kob homepage'
 
 
 # -- Options for LaTeX output ------------------------------------------------
