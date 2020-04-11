@@ -15,8 +15,8 @@ jobs:
     # Standard drop-in approach that should work for most people.
     - uses: ammaraskar/sphinx-action@master
       with:
-        # build-command: "sphinx-build -b html . _build" # Example of using a custom build-command.
-        docs-folder: "docs/"
+        #build-command: "sphinx-build -b html . _build" # Example of using a custom build-command.
+        docs-folder: "."
     - uses: actions/checkout@v2
       with:
         ref: gh-pages
@@ -27,7 +27,8 @@ jobs:
     - name: Commit documentation changes
       run: |
         # git clone https://github.com/ammaraskar/sphinx-action-test.git --branch gh-pages --single-branch gh-pages
-        cp -r docs/_build/html/* gh-pages/
+        ls -la
+        cp -r _build/html/* gh-pages/
         cd gh-pages
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
