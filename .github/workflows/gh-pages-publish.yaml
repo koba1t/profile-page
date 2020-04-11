@@ -15,7 +15,7 @@ jobs:
     # Standard drop-in approach that should work for most people.
     - uses: ammaraskar/sphinx-action@master
       with:
-        build-command: "sphinx-build -b html . _build" # Example of using a custom build-command.
+        #build-command: "sphinx-build -b html . _build" # Example of using a custom build-command.
         docs-folder: "."
     - uses: actions/checkout@v2
       with:
